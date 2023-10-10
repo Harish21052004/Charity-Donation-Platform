@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Donate Us</title>
+    <link rel="shortcut icon" href="5335745.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/registration.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+        <logo>
+            THE HOPE
+        </logo>
+    </nav>
+
+
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="registration.php" method="POST" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" name="full_name" />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address" name="email" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" name="phone_number" required />
+          </div>
+        </div>
+        </div>
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" placeholder="Enter street address" name="street_address" required />
+          <div class="column">
+            <div class="select-box">
+              <select name="country">
+                <option hidden>Country</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>America</option>
+                <option>Nepal</option>
+                <option>Korea</option>
+                <option>China</option>
+                <option>England</option>
+                <option>Singapore</option>
+                <option>Pakistan</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Enter your city" name="city" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Enter your region" name="region" required />
+            <input type="number" placeholder="Enter postal code" name="postal_code" required />
+          </div>
+        </div>
+        <div class="amount">
+            <div class="input-box">
+                <input type="number" placeholder="Amount in Rs" name="amount" required>
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+    
+          <ul class="footer-list">
+    
+            <li>
+              <a href="https://seqlegal.com/free-legal-documents/website-terms-and-conditions" target="_blank" class="footer-link">Terms of use</a>
+            </li>
+    
+            <li>
+              <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" class="footer-link">Privacy & Policy</a>
+            </li>
+    
+          </ul>
+    
+          <p class="copyright">
+            Copyright 2022. All Rights Reserved.
+          </p>
+    
+        </div>
+      </footer>
+      <div class="footer-links" style=" width: 100%; background-color: black; display:  flex; align-items: center; justify-content: center;">
+        <a href="#">
+          <div style="padding: 10px; font-size: 40px; color: #fff;">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </div>
+        </a>
+       <a href="#">
+        <div style="padding: 10px; font-size: 40px; color: #fff;">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div>
+       </a>
+        <a href="#">
+          <div style="padding: 10px; font-size: 40px; color: #fff;">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </div>
+        </a>
+        <a href="#">
+          <div style="padding: 10px; font-size: 40px; color: #fff;">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </div>
+        </a>
+      </div>
+  </body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
